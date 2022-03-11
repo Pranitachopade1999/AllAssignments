@@ -1,0 +1,22 @@
+
+#my.greetingDesc=welcome to ${my.greeting}
+my:
+ greeting: hello world
+ list:
+    value: one,two,three
+
+ 
+
+dbvalues: "{conurl:'https://localhost:8080/' , username:'Pranita' , password:'Pranita@123'}"
+
+db:
+ hostname: localhost
+ port: 8080
+ url: https://localhost:8080
+
+management.endpoints.web.exposure.include: "*"
+
+spring:
+  profiles:
+    active:
+    - test
